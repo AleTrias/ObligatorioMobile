@@ -1,3 +1,3 @@
-function prueba() {
+export function prueba() {
     return "holas"
 }

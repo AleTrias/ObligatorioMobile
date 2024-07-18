@@ -1,7 +1,7 @@
-import * as services from './app/services/index.mjs';
+import { prueba } from './app/services/index.mjs';
 main();
 
 function main() {
-    let prueba = services.prueba();
-    console.log(prueba);
+    let test = prueba();
+    console.log(test);
 }
